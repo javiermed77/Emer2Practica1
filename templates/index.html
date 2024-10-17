@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Inicio</title>
+    
+</head>
+<body>
+    
+    <header>
+    <h1> Importadora JMS </h1>
+    <img src="{{ url_for('static', filename='img/Empresajms.png') }}" alt="Importadora"width="200" height="200"></a>
+    
+
+<nav>
+    <ul>
+    <li><a href="/">inicio</a></li>
+    <li><a href="/Quienes_Somos">Quienes_Somos</a></li>
+    <li><a href="/Servicios">Servicios</a></li>
+    <li><a href="/Noticias">Noticias</a></li>
+    <li><a href="/Contactos">Contactos</a></li>
+    </ul>
+</nav>
+</header>
+<h3>Importadora de Las Mejores Computadoras De ULtima Tecnologia</h3>
+    <p>
+        <h2>Bienvenido a La Importadora "JMS"</h2>
+        <p>Nos especializamos en ofrecer soluciones innovadoras para pequeñas empresas.</p>
+    </p>
+    <div class="section-title">
+        <h2>Comentarios De los Clientes</h2>
+        <p>Nuestros Clientes Pueden Compartir Aqui Sus comentarios</p>
+        <br>
+        <label for="message">Mensaje:</label>
+        <br>
+    <textarea id="message" name="message" required></textarea>
+
+    <button type="submit">Enviar</button>
+      </div>
+
+      
+      
+      <section>
+          <h2>Testimonios</h2>
+          <p>"Esta empresa ha transformado completamente nuestro negocio." - Cliente JORGE</p>
+          <p>"Excelente servicio y resultados!" - Cliente Beatriz</p>
+      </section>
+      
+      <section>
+          <h2>Ventajas</h2>
+          <ul>
+              <li>Innovación</li>
+              <li>Soporte 24/7</li>
+              <li>Precios accesibles</li>
+          </ul>
+      </section>
+      
+
+
+    
+<footer>
+    <p>Síguenos: </p>
+    
+        <a href="https://github.com" > <img src="{{ url_for('static', filename='img/github1.png') }}" alt="github1"width="50" height="50"></a>
+        <a href="https://www.facebook.com/">  <img src="{{ url_for('static', filename='img/facebook.png') }}" alt="facebook"width="50" height="50"></a>
+        <a href="https://x.com/?lang=es"><img src="{{ url_for('static', filename='img/x.png') }}" alt="x"width="50" height="50"></a>
+    
+</footer>
+</body>
+</html>
